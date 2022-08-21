@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\BUILDS\GameGuru Wicked MAX Build Area\Max\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEXE2|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\DOWNLOADS\MAX Demo Compo\Walk In The Park\Walk In The Park\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\DEV\DOWNLOADS\MAX Demo Compo\Walk In The Park\Walk In The Park\WITP.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEXE|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\DOWNLOADS\MAX Demo Compo\Walk In The Park\Walk In The Park\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\DEV\DOWNLOADS\MAX Demo Compo\Walk In The Park\Walk In The Park\WITP.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDEMO|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\BUILDS\GameGuru Wicked MAX Build Area\Max\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseGAME|x64'">
+    <LocalDebuggerWorkingDirectory>C:\Users\leeba\Documents\GameGuruApps\GameGuruMAX\My Games\Lees DES\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>C:\Users\leeba\Documents\GameGuruApps\GameGuruMAX\My Games\Lees DES\Lees DES.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseSIGNED|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\BUILDS\GameGuru Wicked MAX Build Area\Max\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerWorkingDirectory>C:\DEV\BUILDS\GameGuru Wicked MAX Build Area\Max</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

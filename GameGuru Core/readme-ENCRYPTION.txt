@@ -1,0 +1,1 @@
+The source code will need to be compiled officially so any encryption related code can be integrated

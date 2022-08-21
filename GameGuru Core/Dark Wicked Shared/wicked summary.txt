@@ -1,0 +1,21 @@
+Summary
+-------
+
+The WICKED ENGINE repo is cloned to sit outside the main GAMEGURUV3REPO repo, called WICKEDREPO and pulls from the TGC FORKED Wicked Engine on GitHub.
+
+This ensures the latest version of the source code can be pulled to the fork and applied for instant recompiling against.
+
+Only the 'template_Windows' project was taken and extensively modified as the new foundation for GameGuru MAX. Renamed 'Wicked-MAX' project.
+
+A new 'GameGuruWickedMAX.sln' solution was created to host the building up of the new 64-bit foundation, and keeps the old projects in the solution for easier cut/paste and in some cases re-using modules that have either insufficient or absent functionality in the Wicked SDK.
+
+Using DW as the prefix for all new modules that map onto the Wicked Engine (as opposed to the old DBP engine)
+
+APR29TH - Having completed text cleanup, the BEST way is to keep a single LIB folder, and the main module header using the WICKEDENGINE define to point to the separated functions that need to be abstracted, but can leave a core set of functions and data structures that are common to both in a common header/source file set(s). We want as little code duplication as possible to save integration time, reduce bug fixing time and produce a smaller cleaner, easier to navigate result.
+
+ - STAGE 1 : Clean up Module, separate into CORE and GRAPHIC-ENGINE-DEPENDENT header and code
+ - STAGE 2 : Get DBP side compiling against
+ - STAGE 3 : Get new WICKED ENGINE side up and running
+  (after first stage, should still be able to switch back to DBP, rebuild and run to ensure software has not been messed up)
+ 
+MAY23RD - Rebuilt all DBP LIBs in 64-bit (mostly as is) so can get main executable compiling (needed pretty much all of them). 
